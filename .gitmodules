@@ -1,3 +1,4 @@
-[submodule "themes/zozo"]
-	path = themes/zozo
-	url = https://github.com/imzeuk/hugo-theme-zozo
+[submodule "themes/maupassant"]
+    path = themes/maupassant
+    url = https://github.com/flysnow-org/maupassant-hugo
+
