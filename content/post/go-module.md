@@ -1,7 +1,6 @@
 ---
 title: "Go Module"
 date: 2020-02-10T15:05:56+08:00
-draft: true
 tags: ["golang"]
 categories: ["Golang"]
 ---

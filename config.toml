@@ -1,7 +1,7 @@
 baseURL = "http://blog.zhangyaqi.com/"
 languageCode = "zh-cn"
 title = "淼淼淼淼淼淼淼"
-theme = "maupassant"
+theme = "cleanwhite"
 
 ## 是否禁止URL Path转小写
 disablePathToLower = true
@@ -14,17 +14,12 @@ toc = true  # 是否开启目录
 [author]
   name = "淼淼淼淼淼淼淼"
 
-[menu]
-  [[menu.main]]
-    identifier = "archives"
-    name = "归档"
-    url = "/archives/"
-    weight = 2
-  [[menu.main]]
-    identifier = "about"
-    name = "关于"
-    url = "/about/"
-    weight = 3
+#  [[params.addtional_menus]]
+#  title =  "关于"
+#  href =  "/about/"
+  [[params.addtional_menus]]
+  title =  "ABOUT"
+  href =  "/top/about/"
 
 [params]
     author = "张亚奇"
@@ -32,18 +27,10 @@ toc = true  # 是否开启目录
     keywords = "golang,go语言,go语言笔记,go语言博客,公众号,小程序"
     description = "专注于IT物联网，包括但不限于Go语言(golang)、项目管理、系统管理、系统架构等"
 
-[params.cc]
-    name = "知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议"
-    link = "https://creativecommons.org/licenses/by-nc-nd/4.0/"
-
-[params.utteranc]
-    enable = true
-    repo = "https://github.com/zhyq132"    # 存储评论的Repo，格式为 owner/repo
-    issueTerm = "pathname"  #表示你选择以那种方式让github issue的评论和你的文章关联。
-    theme = "github-light" # 样式主题，有github-light和github-dark两种
-
 ## 配置代码高亮
 [markup]
+  [markup.tableOfContents]
+    endLevel = 2
+    startLevel = 1
   [markup.highlight]
-    lineNos = true
-    style = "github"
+    style = "dracula"
