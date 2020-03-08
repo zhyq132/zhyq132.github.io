@@ -1,8 +1,34 @@
 baseURL = "http://blog.zhangyaqi.com/"
 languageCode = "zh-cn"
-title = "what does not kill me, makes me stronger."
-
+title = "淼淼淼淼淼淼淼"
 theme = "maupassant"
+
+## 是否禁止URL Path转小写
+disablePathToLower = true
+## 保持分类的原始名字（false会做转小写处理）
+preserveTaxonomyNames = true
+
+[author]
+  name = "七哥"
+
+[menu]
+  [[menu.main]]
+    identifier = "archives"
+    name = "归档"
+    url = "/archives/"
+    weight = 2
+  [[menu.main]]
+    identifier = "about"
+    name = "关于"
+    url = "/about/"
+    weight = 3
+
+[params]
+    author = "张亚奇"
+    subtitle = "我从PHP来，当下专注于Go语言(golang)、物联网，目标在项目管理、系统架构"
+    keywords = "golang,go语言,go语言笔记,go语言博客,公众号,小程序"
+    description = "专注于IT物联网，包括但不限于Go语言(golang)、项目管理、系统管理、系统架构等"
+    busuanzi = true
 
 [params.cc]
     name = "知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议"
@@ -14,5 +40,3 @@ theme = "maupassant"
     issueTerm = "pathname"  #表示你选择以那种方式让github issue的评论和你的文章关联。
     theme = "github-light" # 样式主题，有github-light和github-dark两种
 
-[params]
-    busuanzi = true
