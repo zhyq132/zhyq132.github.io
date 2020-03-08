@@ -29,7 +29,6 @@ disableLiveReload = true
     subtitle = "我从PHP来，当下专注于Go语言(golang)、物联网，目标在项目管理、系统架构"
     keywords = "golang,go语言,go语言笔记,go语言博客,公众号,小程序"
     description = "专注于IT物联网，包括但不限于Go语言(golang)、项目管理、系统管理、系统架构等"
-    busuanzi = true
 
 [params.cc]
     name = "知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议"
