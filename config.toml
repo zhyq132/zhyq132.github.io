@@ -1,36 +1,65 @@
-baseURL = "http://blog.zhangyaqi.com/"
-languageCode = "zh-cn"
-title = "淼淼淼淼淼淼淼"
+baseurl = "http://blog.zhangyaqi.com/"
+title = "张亚奇"
 theme = "cleanwhite"
-
-## 是否禁止URL Path转小写
-disablePathToLower = true
-## 保持分类的原始名字（false会做转小写处理）
+languageCode = "en-us"
+# Enable comments by entering your Disqus shortname
+disqusShortname = ""
+googleAnalytics = ""
 preserveTaxonomyNames = true
-disableLiveReload = true
-# 全局开关，你也可以在每一篇内容的 front matter 中针对单篇内容关闭或开启某些功能
-toc = true  # 是否开启目录
+paginate = 10 #frontpage pagination
+hasCJKLanguage = true
 
-[author]
-  name = "淼淼淼淼淼淼淼"
-
-#  [[params.addtional_menus]]
-#  title =  "关于"
-#  href =  "/about/"
-  [[params.addtional_menus]]
-  title =  "ABOUT"
-  href =  "/top/about/"
+[outputs]
+home = ["HTML", "RSS", "Algolia"]
 
 [params]
-    author = "张亚奇"
-    subtitle = "我从PHP来，当下专注于Go语言(golang)、物联网，目标在项目管理、系统架构"
-    keywords = "golang,go语言,go语言笔记,go语言博客,公众号,小程序"
-    description = "专注于IT物联网，包括但不限于Go语言(golang)、项目管理、系统管理、系统架构等"
+  header_image = "img/home-bg-jeep.jpg"
+  SEOTitle = "张亚奇的博客 | zhangyaqi Blog"
+  description = "我从PHP来，当下专注于Go语言(golang)、物联网，目标在项目管理、系统架构"
+  keyword = "golang,go语言,go语言笔记,go语言博客,公众号,小程序"
+  slogan = "努力没有价值，努力的结果才有价值"
 
-## 配置代码高亮
+  image_404 = "img/404-bg.jpg"
+  title_404 = "你来到了没有知识的荒原 :("
+  omit_categories = false
+
+  # Sidebar settings
+  sidebar_about_description = "我从PHP来，当下专注于Go语言(golang)、物联网，目标在项目管理、系统架构"
+  #sidebar_avatar = "img/avatar-zhaohuabing.jpg"      # use absolute URL, seeing it's used in both `/` and `/about/`
+  sidebar_avatar = "img/zhaohuabing.png"      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+  featured_tags = true
+  featured_condition_size = 1
+
+  #Enable wechat pay & alipay to allow readers send reward money if they like the articles
+#  reward = true
+#  reward_guide = "如果这篇文章对你有用,请随意打赏"
+
+  friends = true
+  bookmarks = false
+  about_me = true
+
+  [params.social]
+    rss            = true
+    email          = "zhyq132@163.com"
+    github         = "https://github.com/zhyq132"
+#  wechat         = "your wechat qr code image"
+
+  [[params.addtional_menus]]
+    title =  "关于"
+    href =  "/about/"
+  [[params.addtional_menus]]
+    title =  "ABOUT"
+    href =  "/top/about/"
+
 [markup]
   [markup.tableOfContents]
     endLevel = 2
     startLevel = 1
   [markup.highlight]
     style = "dracula"
+
+[taxonomies]
+    tag = "标签"
+    category = "分类"
+    series = "系列"
