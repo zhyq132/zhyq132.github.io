@@ -13,7 +13,7 @@ hasCJKLanguage = true
 home = ["HTML", "RSS"]
 
 [params]
-  header_image = "img/home-bg-jeep.jpg"
+  header_image = "imgs/kingslayer.jpg"
   SEOTitle = "张亚奇的博客 | zhangyaqi Blog"
   description = "我从PHP来，当下专注于Go语言(golang)、物联网，目标在项目管理、系统架构"
   keyword = "golang,go语言,go语言笔记,go语言博客,公众号,小程序"
@@ -26,7 +26,7 @@ home = ["HTML", "RSS"]
   # Sidebar settings
   sidebar_about_description = "我从PHP来，当下专注于Go语言(golang)、物联网，目标在项目管理、系统架构"
   #sidebar_avatar = "img/avatar-zhaohuabing.jpg"      # use absolute URL, seeing it's used in both `/` and `/about/`
-  sidebar_avatar = "img/zhaohuabing.png"      # use absolute URL, seeing it's used in both `/` and `/about/`
+  sidebar_avatar = "imgs/zhaohuabing.png"      # use absolute URL, seeing it's used in both `/` and `/about/`
 
   featured_tags = true
   featured_condition_size = 1
