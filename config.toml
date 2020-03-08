@@ -8,9 +8,11 @@ disablePathToLower = true
 ## 保持分类的原始名字（false会做转小写处理）
 preserveTaxonomyNames = true
 disableLiveReload = true
+# 全局开关，你也可以在每一篇内容的 front matter 中针对单篇内容关闭或开启某些功能
+toc = true  # 是否开启目录
 
 [author]
-  name = "七哥"
+  name = "淼淼淼淼淼淼淼"
 
 [menu]
   [[menu.main]]
@@ -36,7 +38,12 @@ disableLiveReload = true
 
 [params.utteranc]
     enable = true
-    repo = ""    # 存储评论的Repo，格式为 owner/repo
+    repo = "https://github.com/zhyq132"    # 存储评论的Repo，格式为 owner/repo
     issueTerm = "pathname"  #表示你选择以那种方式让github issue的评论和你的文章关联。
     theme = "github-light" # 样式主题，有github-light和github-dark两种
 
+## 配置代码高亮
+[markup]
+  [markup.highlight]
+    lineNos = true
+    style = "github"
