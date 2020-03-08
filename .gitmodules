@@ -2,3 +2,6 @@
     path = themes/maupassant
     url = https://github.com/flysnow-org/maupassant-hugo
 
+[submodule "themes/cleanwhite"]
+	path = themes/cleanwhite
+	url = https://github.com/zhaohuabing/hugo-theme-cleanwhite.git
