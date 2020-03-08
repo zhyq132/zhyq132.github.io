@@ -13,7 +13,7 @@ hasCJKLanguage = true
 home = ["HTML", "RSS"]
 
 [params]
-  header_image = "imgs/kingslayer.jpg"
+  header_image = "img/kingslayer.jpg"
   SEOTitle = "张亚奇的博客 | zhangyaqi Blog"
   description = "我从PHP来，当下专注于Go语言(golang)、物联网，目标在项目管理、系统架构"
   keyword = "golang,go语言,go语言笔记,go语言博客,公众号,小程序"

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>张亚奇</title>
+    <link>http://blog.zhangyaqi.com/</link>
+    <description>Recent content on 张亚奇</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 10 Feb 2020 15:05:56 +0800</lastBuildDate>
+    
+	<atom:link href="http://blog.zhangyaqi.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Go Module</title>
+      <link>http://blog.zhangyaqi.com/post/go-module/</link>
+      <pubDate>Mon, 10 Feb 2020 15:05:56 +0800</pubDate>
+      
+      <guid>http://blog.zhangyaqi.com/post/go-module/</guid>
+      <description>对我的影响 在module出现之前，我用的一直就是GOPATH，其他dep、vender等方式没用过不做评价。对我来说使用GOPATH方式来管</description>
+    </item>
+    
+    <item>
+      <title>归档</title>
+      <link>http://blog.zhangyaqi.com/archives/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.zhangyaqi.com/archives/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
