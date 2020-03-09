@@ -1,5 +1,5 @@
 baseurl = "http://blog.zhangyaqi.com/"
-title = "张亚奇"
+title = "淼淼淼淼淼淼淼"
 theme = "cleanwhite"
 languageCode = "en-us"
 # Enable comments by entering your Disqus shortname
@@ -26,8 +26,8 @@ home = ["HTML", "RSS"]
 
   # Sidebar settings
   sidebar_about_description = "我从PHP来，当下专注于Go语言(golang)、物联网，目标在项目管理、系统架构"
-  #sidebar_avatar = "img/avatar-zhaohuabing.jpg"      # use absolute URL, seeing it's used in both `/` and `/about/`
-  sidebar_avatar = "imgs/zhaohuabing.png"      # use absolute URL, seeing it's used in both `/` and `/about/`
+  #sidebar_avatar = "img/favicon.jpg"      # use absolute URL, seeing it's used in both `/` and `/about/`
+  sidebar_avatar = "img/favicon.jpg"      # use absolute URL, seeing it's used in both `/` and `/about/`
 
   featured_tags = true
   featured_condition_size = 1
@@ -46,9 +46,6 @@ home = ["HTML", "RSS"]
     github         = "https://github.com/zhyq132"
 #  wechat         = "your wechat qr code image"
 
-  [[params.addtional_menus]]
-    title =  "关于"
-    href =  "/about/"
   [[params.addtional_menus]]
     title =  "ABOUT"
     href =  "/top/about/"
