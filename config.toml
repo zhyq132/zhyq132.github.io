@@ -8,6 +8,7 @@ googleAnalytics = ""
 preserveTaxonomyNames = true
 paginate = 10 #frontpage pagination
 hasCJKLanguage = true
+toc = true
 
 [outputs]
 home = ["HTML", "RSS"]
