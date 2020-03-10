@@ -49,7 +49,7 @@ home = ["HTML", "RSS"]
     title =  "ABOUT"
     href =  "/top/about.html"
 
-[markup]
+  [markup]
   [markup.tableOfContents]
     endLevel = 2
     startLevel = 1
