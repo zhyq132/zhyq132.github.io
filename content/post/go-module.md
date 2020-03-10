@@ -5,8 +5,6 @@ tags: ["golang"]
 categories: ["Golang"]
 ---
 
-[TOC]
-
 ## 对我的影响
 > 在module出现之前，我用的一直就是GOPATH，其他dep、vender等方式没用过不做评价。对我来说使用GOPATH方式来管理包，最大的问题就是版本的依赖，在多个项目之前如果有版本的问题存在，简直就是灾难。
 
