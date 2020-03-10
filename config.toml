@@ -35,7 +35,7 @@ home = ["HTML", "RSS"]
 #  reward = true
 #  reward_guide = "如果这篇文章对你有用,请随意打赏"
 
-  friends = true
+  friends = false
   bookmarks = false
   about_me = true
 
@@ -47,7 +47,7 @@ home = ["HTML", "RSS"]
 
   [[params.addtional_menus]]
     title =  "ABOUT"
-    href =  "/top/about/about.html"
+    href =  "/top/about.html"
 
 [markup]
   [markup.tableOfContents]
@@ -60,3 +60,6 @@ home = ["HTML", "RSS"]
     tag = "标签"
     category = "分类"
     series = "系列"
+
+[permalinks]
+post = "/:year/:month/:day/:title.html"
