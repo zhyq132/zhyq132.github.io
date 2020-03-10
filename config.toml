@@ -26,7 +26,6 @@ home = ["HTML", "RSS"]
 
   # Sidebar settings
   sidebar_about_description = "我从PHP来，当下专注于Go语言(golang)、物联网，目标在项目管理、系统架构"
-  #sidebar_avatar = "img/favicon.jpg"      # use absolute URL, seeing it's used in both `/` and `/about/`
   sidebar_avatar = "img/favicon.jpg"      # use absolute URL, seeing it's used in both `/` and `/about/`
 
   featured_tags = true
@@ -48,7 +47,7 @@ home = ["HTML", "RSS"]
 
   [[params.addtional_menus]]
     title =  "ABOUT"
-    href =  "/top/about/"
+    href =  "/top/about/about.html"
 
 [markup]
   [markup.tableOfContents]
